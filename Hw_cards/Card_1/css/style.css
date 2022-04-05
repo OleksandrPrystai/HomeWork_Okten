@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+.global_box{
+    background-color: darkgray;
+    height: 500px;
+    width: 1000px;
+    margin-left: 210px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+
+    width: 270px;
+    height: 420px;
+    background-color: silver;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: ridge;
+    border-color: indigo ;
+    text-align: center;
+    display: block;
+
+
+
+}
+.txt_top{
+    font-family: "Comic Sans MS";
+    margin-top: 80px;
+}
+.txt_centr{
+    font-size: 18px;
+    margin-top: 40px;
+    font-family: "Comic Sans MS";
+    line-height: 28px;
+
+}
+.button{
+    width: 200px;
+    height: 50px;
+    background-color: silver;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: ridge;
+    border-color: indigo ;
+    text-align: center;
+    display: block;
+    margin-left: 27px;
+    margin-top: 30px;
+
+}
+.ghgh{
+    width: 1000px;
+    margin-left: 210px;
+}

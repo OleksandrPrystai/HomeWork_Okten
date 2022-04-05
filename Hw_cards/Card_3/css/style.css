@@ -1,0 +1,42 @@
+.global_box{
+    width: 800px;
+    height: 500px;
+    margin-left: 250px;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    padding: 20px 50px;
+}
+.card{
+    width: 360px;
+    height: 120px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.txt_card{
+    margin-left: 20px;
+}
+.icon{
+margin-left: 40px;
+}
+.icon_rut{
+    width: 45px;
+}
+.txt_h{
+    font-size: 20px;
+    color: chocolate;
+}
+.txt_p{
+    font-size: 14px;
+}
+.ghgh{
+    width: 1400px;
+   margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
