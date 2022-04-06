@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+}
+.conteiner{
+    width: 1000px;
+    height: 600px;
+    background-color: silver;
+    margin-left: 200px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.cards{
+    width: 250px;
+    height: 330px;
+    display: block;
+    background-color: azure;
+    position: relative;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    background-color: azure;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 80px;
+}
+.img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+h2{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+p{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.button{
+    width: 150px;
+    height: 35px;
+    display: flex;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 2px;
+    border-color: black;
+    margin-left: 48px;
+}
+a{
+    height: 20px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 35px;
+
+}

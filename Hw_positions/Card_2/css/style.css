@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+}
+.conteiner{
+    width: 100%;
+    height: 1000px;
+    background-color: silver;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 1;
+}
+.bar{
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    border-radius: 5px;
+}
+.burger{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.box{
+    width: 100%;
+    height: 500px;
+    background-color: green;
+    position: relative;
+    z-index: 0;
+}
+.boot_header{
+    height: 80px;
+
+}
+.boxes{
+    display: flex;
+    justify-content: center ;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: calc(50% - 180px);
+
+
+}
+.boxes2{
+    display: flex;
+    position: absolute;
+    margin-left: calc(50% - 20px);
+
+}
+.card1{
+    width: 100px;
+    height: 100px;
+    background-color: fuchsia;
+    border-radius: 5px;
+    margin: 20px;
+}
+.card2{
+    width: 100px;
+    height: 100px;
+    background-color: indigo;
+    border-radius: 5px;
+    margin-top: 350px;
+
+}
+
+
+
+
+
+
+
+
+
