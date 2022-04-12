@@ -1,0 +1,135 @@
+@media screen  and (min-width: 250px) and (max-width: 425px) {
+    .container {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .header {
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .header_block_1 {
+        height: 20px;
+    }
+
+    .left_menu {
+        position: absolute;
+        margin-left: -500px;
+    }
+
+    .global_box {
+        width: 100%;
+    }
+
+    .global_block_3 {
+        height: 180px;
+        margin-bottom: 10px;
+    }
+
+    .global_block_3_1 {
+        height: 100px;
+        width: 90%;
+    }
+
+    .box_4 {
+        flex-direction: column;
+        height: 250px;
+    }
+
+    .box_4_box_1 {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .box_4_block_1 {
+        width: 50%;
+        margin: 20px 15px 20px 15px;
+    }
+
+    .box_56 {
+        flex-direction: column;
+        margin-top: 10px;
+        height: 1000px;
+    }
+
+    .box_5 {
+        width: 100%;
+    }
+
+    .box_5_block_1_1 {
+        width: 45%;
+    }
+
+    .box_6 {
+        width: 100%;
+        margin-top: 10px;
+        height: 60%;
+    }
+
+    .left_menu_block_2 {
+        height: 150px;
+    }
+
+    .footer {
+        margin-top: 10px;
+    }
+
+}
+
+
+@media screen  and (min-width: 426px) and (max-width: 768px) {
+    .container{
+        width: 100%;
+        margin-top: 0;
+    }
+    .header{
+        height: 100px;
+    }
+    .header_block_1{
+        width: 15%;
+        height: 60px;
+    }
+    .left_menu {
+        position: absolute;
+        margin-left: -500px;
+    }
+    .global_box {
+        width: 100%;
+    }
+    .box_4_block_1{
+        width: 45%;
+        height: 50%;
+        margin: 0 10px 0 10px;
+    }
+    .box_56 {
+        flex-direction: column;
+        margin-top: 10px;
+        height: 1000px;
+    }
+    .box_5 {
+        width: 100%;
+    }
+
+    .box_5_block_1_1 {
+        width: 45%;
+        height: 130px;
+    }
+
+    .box_6 {
+        width: 100%;
+        margin-top: 10px;
+        height: 60%;
+    }
+
+    .left_menu_block_2 {
+        height: 150px;
+    }
+
+    .footer {
+        margin-top: 10px;
+    }
+
+
+}
+
