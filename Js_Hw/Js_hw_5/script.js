@@ -171,3 +171,16 @@
 //     return sum
 // }
 // console.log(sumArray([2, 4, 1, 5, 7, 8]));
+
+// -створити функцію, яка приймає масив з 2х об'єктів, та міняє їх місцями
+//
+// let sortArray = (arr) =>{
+//     let array = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         array[i] = arr[(arr.length - 1) - i]
+//     }
+//     return array
+//
+// }
+// let array = [2,1];
+// console.log(sortArray(array));
