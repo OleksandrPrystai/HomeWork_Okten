@@ -21,28 +21,16 @@
 
 // -- змініть кожному елементу колір фону на червоний
 //
-// const tag1 = document.getElementsByTagName('p');
-// const tag2 = document.getElementsByTagName('div');
-// const tag3 = document.getElementsByTagName('li');
-//
-// let tagArray = [tag1, tag2, tag3];
-//
-// for (const tagArrayElement of tagArray) {
-//     for (const tagAll of tagArrayElement) {
-//         tagAll.style.background='green'
-//     }
-//
+// const allElements = document.body.children;
+// for (const allElement of allElements) {
+//     allElement.style.backgroundColor = 'red'
 // }
 
 // -- змініть кожному елементу колір тексту на синій
 //
-// const textStyle1 = document.getElementById('content');
-// textStyle1.style.color = 'blue';
-// const textStyle2 = document.getElementById('rules');
-// textStyle2.style.color = 'blue';
-// const textStyle3 = document.getElementsByClassName('fc_rules');
-// for (const textStyle3Element of textStyle3) {
-//     textStyle3Element.style.color = 'blue'
+// let allElements = document.querySelectorAll('*');
+// for (const allElement of allElements) {
+//     allElement.style.color = 'blue'
 // }
 
 // -- отримати весь список класів елемента з id=rules і вивести їх в console.log
