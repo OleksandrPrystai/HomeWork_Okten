@@ -44,3 +44,34 @@
 // При натисканні кнопки, вся ця інформація зчитується і формується табличка,
 // з відповідним вмістом.
 // (Додатковачастина для завдання)
+//
+// let form1 = document.forms.formTab;
+// let buttonCalc = document.getElementById('butt');
+// buttonCalc.onclick = function (e) {
+//     let inp1 = document.getElementById('xxx').value
+//     let inp2 = document.getElementById('yyy').value
+//     let inp3 = document.getElementById('zzz').value
+//
+//     function generationTab (inp1 , inp2 ,inp3){
+//         let tab = document.createElement('table');
+//         let divTab = document.createElement('div');
+//         tab.style.border = '1px solid black'
+//         divTab.appendChild(tab);
+//         document.body.appendChild(divTab);
+//
+//
+//     for (let i = 0; i < inp1; i++) {
+//             let inp1 = document.createElement('inp1');
+//             inp1.style.border = '1px solid black';
+//             for (let p = 0; p < inp2; p++) {
+//                 let inp2 = document.createElement('inp2');
+//                 inp2.style.border = '1px solid green';
+//                 inp2.innerText = `${inp3}`;
+//                 tab.appendChild(inp1);
+//                 inp1.appendChild(inp2);
+//             }
+//         }
+//     }
+//     generationTab(inp1,inp2,inp3)
+//
+// }
