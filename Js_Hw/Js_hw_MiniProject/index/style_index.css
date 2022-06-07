@@ -1,0 +1,23 @@
+.userDivBlock{
+    display: flex;
+    margin: 20px;
+}
+p{
+    margin: 5px;
+    color: #333333;
+    font-size: 18px;
+}
+.buttonStyle{
+    margin: 24px;
+}
+button{
+
+}
+.globalBox{
+    background-color: #acacac;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}

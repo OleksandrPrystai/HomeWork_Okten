@@ -1,0 +1,14 @@
+.globalDiv{
+    background-color: #acacac;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+p{
+    margin: 5px;
+    color: #333333;
+    font-size: 18px;
+}
